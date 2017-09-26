@@ -1,0 +1,116 @@
+@media (min-width: 360px) {
+	.lamp_cont {
+		width: 100px;
+		display: none;
+	}
+
+	.cam_cont {
+		width: 100px;
+	}
+
+	.speaker_cont {
+		width: 95px;
+		display: none;
+	}
+
+	.light {
+		width:150px;
+	}
+
+	.comp_cont {
+		width: 300px;
+
+	}
+}
+
+@media (min-width: 768px) {
+	.lamp_cont {
+		width: 200px;
+		margin-bottom: -100px;
+		display: block;
+	}
+
+	.cam_cont {
+		width: 200px;
+	}
+
+	.speaker_cont {
+		width: 170px;
+		display: block;
+	}
+}
+
+
+.test_container{
+	position:fixed;
+	width:26.5%;
+}
+
+.test_overlay,.test_text{
+	position:absolute;
+	overflow:hidden
+}
+
+.test_image{
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+.test_overlay{
+	background-image:url(../../assets/img/website.png);
+	background-size:cover;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:0;
+	transition:.5s ease;
+}
+
+.test_container:hover .test_overlay{
+	height:100%
+}
+.test_text{
+	white-space:nowrap
+	;color:#fff;
+	font-size:20px;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+}
+.comp_container{
+	position:fixed;
+	width:30%;
+}
+
+.row_modal>.column_modal{
+	padding:0 8px;
+}
+.row_modal:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.column_modal{
+	float:left;
+	width:25%;
+}
+.cursor{
+	cursor:pointer;
+}
+img.hover-shadow{
+	transition:.3s;
+}
+.hover-shadow:hover{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,.2) 0 6px 20px 0 rgba(0,0,0,.19);
+}
+#myLight{
+	background-image:url(../../assets/img/LIGHT.png);
+	background-size:cover;
+}
+.light_test{
+	
+}
