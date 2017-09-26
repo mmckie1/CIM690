@@ -1,49 +1,36 @@
 @media (min-width: 360px) {
-	.lamp_cont {
-		width: 100px;
-		display: none;
-	}
-
-	.cam_cont {
-		width: 100px;
-	}
-
-	.speaker_cont {
-		width: 95px;
+	.lamp_cont{
+		max-width: 100px;
 		display: none;
 	}
 
 	.light {
-		width:150px;
+		max-width: 130px;
+		display: none;
+	}
+
+	.speaker_cont {
+		max-width: 100px;
+		display: none;
 	}
 
 	.comp_cont {
-		width: 300px;
+		max-width: 300px;
+	}
+
+	.screen_cont{
+		max-width: 300px;
 
 	}
 }
 
 @media (min-width: 768px) {
-	.lamp_cont {
-		width: 200px;
-		margin-bottom: -100px;
-		display: block;
-	}
-
-	.cam_cont {
-		width: 200px;
-	}
-
-	.speaker_cont {
-		width: 170px;
-		display: block;
-	}
+	
 }
 
 
 .test_container{
-	position:fixed;
-	width:26.5%;
+
 }
 
 .test_overlay,.test_text{
@@ -53,8 +40,8 @@
 
 .test_image{
 	display:block;
-	width:100%;
-	height:auto;
+	width: 100%;
+	height: auto;
 }
 
 .test_overlay{
@@ -108,9 +95,7 @@ img.hover-shadow{
 	box-shadow:0 4px 8px 0 rgba(0,0,0,.2) 0 6px 20px 0 rgba(0,0,0,.19);
 }
 #myLight{
-	background-image:url(../../assets/img/LIGHT.png);
-	background-size:cover;
+
 }
-.light_test{
-	
-}
+
+
