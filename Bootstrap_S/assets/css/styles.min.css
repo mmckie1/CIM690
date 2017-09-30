@@ -18,6 +18,10 @@
 		max-width: 300px;
 	}
 
+	.test_image {
+		max-width: 259px;
+	}
+
 	.test_container{
 		max-width: 300px;
 
@@ -26,6 +30,11 @@
 	.book_cont {
 		max-width: 100px;
 		float: right;
+	}
+
+	.wine_cont{
+		max-width: 100px;
+		display: none;
 	}
 }
 
@@ -65,8 +74,18 @@
 		max-width: 200px;
 		float: right;
 	}
+	
 }
 
+@media (min-width: 980px){
+	.wine_cont{
+		max-width: 100px;
+		display: block;
+		margin-left: 800px;
+		margin-top: -150px;
+	}
+
+}
 
 .test_container{
 	position:fixed;
@@ -80,6 +99,8 @@
 .test_image{
 	display:block;
 	width: 100%;
+	margin-top: -40px;
+	margin-left: 15px;
 	
 }
 
@@ -95,7 +116,8 @@
 }
 
 .test_container:hover .test_overlay{
-	height:100%
+	height: 143%;
+	
 }
 .test_text{
 	white-space:nowrap
@@ -108,7 +130,6 @@
 }
 .comp_container{
 	position:fixed;
-	width:30%;
 }
 
 .book_cont{
