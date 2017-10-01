@@ -32,8 +32,17 @@
 		float: right;
 	}
 
-	.wine_cont{
+	.speakerR_cont{
 		max-width: 100px;
+		display: none;
+	}
+
+	.wine_cont {
+		max-width: 70px;
+		display: none;
+	}
+
+	.camera_cont {
 		display: none;
 	}
 }
@@ -74,17 +83,37 @@
 		max-width: 200px;
 		float: right;
 	}
-	
+
 }
 
 @media (min-width: 980px){
-	.wine_cont{
+	.speakerR_cont{
 		max-width: 100px;
 		display: block;
 		margin-left: 800px;
 		margin-top: -150px;
 	}
 
+	.wine_cont {
+		max-width: 100px;
+		display: block;
+	}
+
+	.camera_cont {
+		max-width: 150px;
+		display: block;
+	}
+
+}
+
+.camera_cont {
+	margin-left: 1000px;
+	margin-top: -70px;
+}
+
+.wine_cont{
+	margin-left: 900px;
+	margin-top: -150px;
 }
 
 .test_container{
